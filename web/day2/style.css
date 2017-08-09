@@ -1,0 +1,22 @@
+body{
+    font-family: Tahoma;
+    font-size: 11px;
+}
+ul,li{
+    font-family: Consolas;
+}
+li .special{
+    color: red;
+    font-style: italic;
+}
+.text-red-bold{
+    color: red;
+    font-weight: bold;
+}
+
+.text-green-italic{
+    color: green;
+    font-style: italic;
+    text-decoration: underline;
+}
+
