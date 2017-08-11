@@ -1,0 +1,48 @@
+h2 {
+    padding-bottom: 20px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 25px;
+    width:15px;
+    text-align: center;
+    border-radius: 100%;
+    text-decoration: none;
+}
+
+.fa.hover {
+    /*
+    Thuộc tính opacity quyết định độ trong suốt của phần tử. Khi các bạn di chuột vào class fa sẽ làm button thay đổi độ trong suốt.
+     */
+    opacity: 0.7;
+}
+.fa-facebook {
+    background:#385998;
+    color:white;
+}
+
+.fa-twitter {
+    background: #81BEF7;
+    color: white;
+}
+
+.fa-google {
+    background: #FE2E2E;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #0174DF;
+    color: white;
+}
+
+.fa-skype {
+    background: #2E9AFE;
+    color: white;
+}
+
+.fa-pinterest {
+    background: #B40404;
+    color: white;
+}
