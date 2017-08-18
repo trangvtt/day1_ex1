@@ -1,0 +1,144 @@
+body {
+    font-size: 15px;
+    color: #333333;
+    background-color: #ffffff;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Hiragino Kaku Gothic Pro", 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: olivedrab;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    width: 20%;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.profile-img img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+main {
+    float: left;
+    border-left: 1px solid gray;
+    padding: 1em;
+}
+
+div.form-group {
+    border-collapse: collapse;
+    display: table;
+    width: 750px;
+}
+
+.cell label {
+    display: table-header-group;
+    font-weight: bold;
+}
+
+div.cell {
+    border: 1px solid #ccc;
+    display: table-cell;
+    padding: 15px 10px;
+}
+
+div.row {
+    display: table-row;
+}
+
+.row .cell:first-child, .footer .cell:first-child {
+    width: 210px;
+    background: #ddd;
+}
+
+div.footer {
+    display: table-footer-group;
+}
+
+.socical {
+    width: 30px;
+    height: 30;
+}
+
+.fa.hover {
+    /*
+    Thuộc tính opacity quyết định độ trong suốt của phần tử. Khi các bạn di chuột vào class fa sẽ làm button thay đổi độ trong suốt.
+     */
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #385998;
+    color: white;
+}
+
+.fa-instagram {
+    background: firebrick;
+    color: white;
+}
+
+.change-profile {
+    margin: 10px;
+    text-align: center;
+}
+
+.change-profile label {
+    margin: 20px auto;
+    text-align: center;
+    padding: 5px;
+    background-color: white;
+    border: #8c8c8c solid 1px;
+    border-radius: 5px;
+    width:150px;
+    font-size: 14px;
+}
+
+.change-profile input {
+    visibility: hidden;
+}
+
+.profile-detail {
+    margin-top: 15px;
+    border-top: solid black 1px;
+    width: 750px;
+}
+
+.photo {
+    margin-top: 15px;
+    width: 750px;
+}
+
+.photo-img {
+    float: left;
+    width: 220px;
+    height: 160px;
+    padding: 10px;
+}
+
