@@ -4,22 +4,7 @@ div.container {
 
 body {
     font-family: Avenir;
-}
-
-header img {
-    height: 90px;
-    float: left;
-    margin-left: 166px;
-}
-
-header h1 {
-    margin-top: 30px;
-}
-
-.hd-left {
-    list-style-type: none;
-    float: left;
-    padding-bottom: 30px;
+    margin: 0;
 }
 
 nav {
@@ -37,17 +22,17 @@ footer {
     text-align: center;
     border-top: solid black 2px;
     border-bottom: solid black 2px;
+    width: 100%;
 }
 
 blockquote {
+    margin: 0;
     background: #6fa8dc;
     color: white;
     border-top: solid black 2px;
     border-bottom: solid black 2px;
     clear: left;
     height: 100px;
-    margin-left: -14em;
-    margin-right: -12em;
 }
 
 .quote {
@@ -68,7 +53,7 @@ section {
     width: 30%;
     height: 226px;
     margin: 1%;
-    overflow: overlay;
+    overflow: auto;
 }
 
 .detail {
@@ -83,5 +68,22 @@ section {
 h4 {
     color: #2E9AFE;
     text-decoration: underline;
+}
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    height: 90px;
+    float: left;
+    margin-left: 166px;
+}
+
+.logo-text {
+    font-size: 25px;
+    font-weight: bold;
+    float: left;
+    padding-top: 25px;
 }
 
