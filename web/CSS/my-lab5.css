@@ -87,22 +87,7 @@ div.footer {
     height: 30;
 }
 
-.fa.hover {
-    /*
-    Thuộc tính opacity quyết định độ trong suốt của phần tử. Khi các bạn di chuột vào class fa sẽ làm button thay đổi độ trong suốt.
-     */
-    opacity: 0.7;
-}
 
-.fa-facebook {
-    background: #385998;
-    color: white;
-}
-
-.fa-instagram {
-    background: firebrick;
-    color: white;
-}
 
 .change-profile {
     margin: 10px;
